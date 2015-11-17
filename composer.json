@@ -1,0 +1,17 @@
+{
+  "name": "lambadijital/bukoli",
+  "description": "BuKoli web service php client.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zeki Unal",
+      "email": "zekiunal@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "BuKoli": "src/"
+    }
+  }
+}
