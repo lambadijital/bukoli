@@ -74,5 +74,6 @@ class Client
     public function setWebServiceUrl($web_service_url)
     {
         $this->web_service_url = $web_service_url;
+        $this->client = new \SoapClient($this->web_service_url);
     }
 }
